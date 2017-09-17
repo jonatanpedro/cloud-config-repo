@@ -3,3 +3,8 @@ server:
   
 logging:
   level: debug 
+
+app:
+  test:
+    value: test value
+    other-value:  test other-value
