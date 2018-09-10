@@ -1,6 +1,9 @@
 server:
   port: ${PORT:8081}
 
+logging:
+  level: debug
+
 spring:
   h2:
     console:
