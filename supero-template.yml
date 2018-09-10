@@ -2,7 +2,9 @@ server:
   port: ${PORT:8081}
 
 logging:
-  level: debug
+  level:
+    org.springframework.web: DEBUG
+    org.hibernate: DEBUG
 
 spring:
   h2:
