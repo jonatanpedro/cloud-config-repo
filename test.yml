@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8081}
+
+spring:
+  h2:
+    console:
+      enabled: true
+    datasource:
+      url: jdbc:h2:mem:templatedb  
+
+app:
+  test:
+    - value: test value
+    - other-value: test other value
