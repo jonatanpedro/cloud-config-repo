@@ -5,6 +5,7 @@ logging:
   level:
     org.springframework.web: DEBUG
     org.hibernate: DEBUG
+    br.com.supero.superotemplate: DEBUG
 
 spring:
   h2:
