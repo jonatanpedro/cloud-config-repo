@@ -16,5 +16,5 @@ spring:
 
 app:
   test:
-    - value: test value
+    - value: Gorlami
     - other-value: test other value
